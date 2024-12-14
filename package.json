@@ -4,12 +4,11 @@
   "description": "A professional copy trading bot for PumpFun built with TypeScript.",
   "main": "index.js",
   "scripts": {
-    "start": "node index.js",
-    "dev": "ts-node index.ts",
-    "build": "tsc",
-    "prepare": "node index.js",
-    "test": "echo \"No test specified\" && exit 1",
+    "start": "ts-node index.ts",
+    "dev": "node index.ts",
+    "test": "node test.ts",
     "lint": "eslint . --ext .ts",
+    "prepare": "node index.js",
     "format": "prettier --write ."
   },
   "keywords": ["copy-trading", "pumpfun", "typescript", "bot"],
